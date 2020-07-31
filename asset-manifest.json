@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.41c2b695.chunk.css",
-    "main.js": "/static/js/main.f84530e1.chunk.js",
-    "main.js.map": "/static/js/main.f84530e1.chunk.js.map",
+    "main.css": "/static/css/main.67366479.chunk.css",
+    "main.js": "/static/js/main.ce7a8ad6.chunk.js",
+    "main.js.map": "/static/js/main.ce7a8ad6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.746fae31.js",
     "runtime-main.js.map": "/static/js/runtime-main.746fae31.js.map",
-    "static/js/2.5aa3c20e.chunk.js": "/static/js/2.5aa3c20e.chunk.js",
-    "static/js/2.5aa3c20e.chunk.js.map": "/static/js/2.5aa3c20e.chunk.js.map",
+    "static/js/2.670d4a86.chunk.js": "/static/js/2.670d4a86.chunk.js",
+    "static/js/2.670d4a86.chunk.js.map": "/static/js/2.670d4a86.chunk.js.map",
     "static/css/3.48a93ee6.chunk.css": "/static/css/3.48a93ee6.chunk.css",
     "static/js/3.ff8c3542.chunk.js": "/static/js/3.ff8c3542.chunk.js",
     "static/js/3.ff8c3542.chunk.js.map": "/static/js/3.ff8c3542.chunk.js.map",
@@ -14,11 +14,11 @@
     "static/js/4.71543fb5.chunk.js": "/static/js/4.71543fb5.chunk.js",
     "static/js/4.71543fb5.chunk.js.map": "/static/js/4.71543fb5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7d4940ab84bb259d924699f3f056d841.js": "/precache-manifest.7d4940ab84bb259d924699f3f056d841.js",
+    "precache-manifest.666ece1a9874e2cce8ef048799402cbc.js": "/precache-manifest.666ece1a9874e2cce8ef048799402cbc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.48a93ee6.chunk.css.map": "/static/css/3.48a93ee6.chunk.css.map",
     "static/css/4.01c87591.chunk.css.map": "/static/css/4.01c87591.chunk.css.map",
-    "static/css/main.41c2b695.chunk.css.map": "/static/css/main.41c2b695.chunk.css.map",
+    "static/css/main.67366479.chunk.css.map": "/static/css/main.67366479.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/PUBG_logo.webp": "/static/media/PUBG_logo.7dc5bddf.webp",
     "static/media/World_of_Warcraft_logo.webp": "/static/media/World_of_Warcraft_logo.14d1d2e8.webp",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.746fae31.js",
-    "static/js/2.5aa3c20e.chunk.js",
-    "static/css/main.41c2b695.chunk.css",
-    "static/js/main.f84530e1.chunk.js"
+    "static/js/2.670d4a86.chunk.js",
+    "static/css/main.67366479.chunk.css",
+    "static/js/main.ce7a8ad6.chunk.js"
   ]
 }
