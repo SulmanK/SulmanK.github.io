@@ -20,26 +20,21 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  username: "Sulman Khan",
+  title: "Hello, I'm Sulman",
+  subTitle: emoji("A passionate data science enthusiast 📈 eager in applying analytics to business problems."),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+   "https://www.docdroid.net/vm4B8rm/khan-sulman-resume-aug-2023-pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/SulmanK",
+  linkedin: "https://www.linkedin.com/in/sulman-khan/",
+  gmail: "sulman@vt.edu",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,74 +43,58 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle: "Through rigorous coursework, I have deepened my understanding of Statistics, Experimental Design, Machine Learning, and Data Analysis. Furthermore, I have applied my expertise in these domains to solve business problems as demonstrated by my work experience and projects. ",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Leveraged my data analysis, cleaning, database management, and predictive modeling skills for providing business solutions."),
+  emoji("⚡ Utilize end-to-end machine learning design methodologies."),
+    emoji("⚡ Deployment of applications using third-party services such as Docker, AWS, and Heroku.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+  {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+  
+  {
+      skillName: "r-project",
+      fontAwesomeClassname: "fab fa-r-project"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+  
+  {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+  
+  {
+      skillName: "gcp",
+      fontAwesomeClassname: "fab fa-google"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+  
+
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+  
+  {
+      skillName: "flask",
+      fontAwesomeClassname: "fa fa-flask"
     }
+  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +105,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Stony Brook University",
+      logo: require("./assets/images/sbuLogo.jpg"),
+      subHeader: "Master of Science in Electrical Engineering",
+      duration: "August 2016 - May 2018",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Virginia Tech",
+      logo: require("./assets/images/vtLogo.png"),
+      subHeader: "Bachelor of Science in Materials Science and Engineering",
+      duration: "August 2012 - May 2016",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -150,7 +127,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,30 +151,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Junior Data Scientist",  
+      company: "Fingercramp",
+      companylogo: require("./assets/images/fingercrampLogo.webp"),
+      date: "May 2018 – August 2023",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "Developed a character balancing model based on historical statistic performance and matchup characteristics.",
+    "Setup and managed a PostgreSQL database to store match statistics for extensive querying involving multiple joins between tables and schemas.",
+    "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
+    "Produced data visualization dashboard assets for the streaming platform.",
       ]
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+
   ]
 };
 
@@ -206,99 +172,97 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Work-related Projects",
+  subtitle: "Projects sponsored by organizations.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/capcom-pt-logo.webp"),
+      projectName: "Capcom Pro Tour",
+      projectDesc: "Premier league for competitive fighting games",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.fingercramp.com/portfolio/capcom-pro-tour-2018/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Project Showcase"),
+  subtitle: "",
   achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+  {
+      title: "eBay: Scraping Phone Auctions",
+      subtitle: "With the abundance in the number of phones listed on online marketplaces, it overwhelms the user in selecting satisfactory auctions. My approach includes building a web-scraping tool to collect data on phone auctions and calculating various metrics to aid in auction selection.   ",
+      image: require("./assets/images/ebayLogo.webp"),
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+    { name: "Github", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions" },
+        { name: "Code", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions/tree/main/Dashboard" },
+        { name: "Application", url: "https://ebay-scraping-popular-phones.herokuapp.com/" },
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+  {
+      title: "Video Game Recommendation Engine",
+      subtitle: "With the number of products increasing exponentially, it burdens the consumer in which products to purchase. A novel solution is the use of recommender systems (engines) to 'recommend' relevant products to the consumers based on their preferences. Applications of recommender systems include areas such as playlist generators for video and music services like Netflix, YouTube, and Spotify. Additionally, product recommendations for services such as Amazon.  Our goal is to build a video game recommendation engine, which utilizes a content-based approached to identify relevant titles using various similarity methods.  ",
+      image: require("./assets/images/gb_logo.webp"),
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+    { name: "Github", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine" },
+        { name: "Code", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine/blob/master/Video%20Game%20Recommendation%20Engine.ipynb" },
+        { name: "Application", url: "https://video-game-recommender-engine.herokuapp.com/" },
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+  {
+      title: "Predicting Customer Churn in World of Warcraft",
+    subtitle: "World of Warcraft (WoW) is a massively multiplayer online video game released on November 23, 2004, by Blizzard Entertainment. WoW utilizes a subscription-based financial model. Therefore, customer churn is an essential indicator in optimizing financial returns. We implemented a model to predict whether a user will churn across a six-month period.",
+      image: require("./assets/images/World_of_Warcraft_logo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+    { name: "Github", url: "https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft" },
+        { name: "Publication", url: "https://arxiv.org/abs/2006.15735" },
+        { name: "Code", url: "https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft.ipynb" },
+        { name: "Application", url: "https://customer-churn-in-wow-app.herokuapp.com/" }
       ]
-    }
+    },
+
+
+    {
+      title: "Clustering Player Behavior in PlayerUnknown's Battlegrounds for Hackers",
+    subtitle: "Playerunknown's Battleground (PUBG) is a video game, which set the standard for preceding games in the Battle Royale genre. With the massive popularity comes with a high influx of players using third-party programs to gain an unfair advantage. Our goal is to apply customer segmentation techniques such as clustering to identify illicit behavior. ",
+      image: require("./assets/images/PUBG_logo.webp"),
+      footerLink: [
+    { name: "Github", url: "https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters" },
+        { name: "Project Summary", url: "https://pubg-hacker-detection-summary.herokuapp.com" },
+        { name: "Code", url: "https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters" },
+        { name: "Application", url: "https://pubg-hacker-detection-app.herokuapp.com" }
+      ]
+    },
+
+
+        {
+      title: "Modelling Hard Drive Reliability",
+    subtitle: "Data is an integral component of our society. From the simple caloric deficits collected in your apple watch to the user history in your Netflix account, data is used in a myriad of applications. With such an abundance of data stored daily, how is it stored? The solution is computer backup or cloud storage services such as Backblaze, which is a world leader in computer backup and storage. Our objective is to improve upon Backblaze's baseline model in predicting hard drive failure by investigating additional S.M.A.R.T attributes (features). ",
+      image: require("./assets/images/backblaze_logo.webp"),
+      footerLink: [
+    { name: "Github", url: "https://github.com/SulmanK/Predicting-Hard-Drive-Failure" },
+        { name: "Report", url: "https://github.com/SulmanK/Predicting-Hard-Drive-Failure/blob/master/Predicting%20Hard%20Drive%20Failure_Report.pdf" },
+        { name: "Code", url: "https://github.com/SulmanK/Predicting-Hard-Drive-Failure/blob/master/Backblaze.ipynb" },
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,9 +288,9 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
-
+/* Change this file to get your personal Portfolio */
 // Talks Sections
 
 const talkSection = {
@@ -343,7 +307,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +320,24 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "",
+  number: "(718)-755-6739",
+  email_address: "sulman@vt.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
